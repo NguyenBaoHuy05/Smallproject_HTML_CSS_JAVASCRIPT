@@ -1,0 +1,52 @@
+body {
+  box-sizing: border-box;
+  background-color: blanchedalmond;
+}
+
+main {
+  padding: 12vw 15vw;
+}
+main > div {
+  float: left;
+  padding: 20px 20px;
+}
+.ope #i {
+  display: none;
+}
+label {
+  display: block;
+  text-align: center;
+  font-size: 8em;
+}
+.ope {
+  text-align: center;
+}
+.ope button {
+  border-radius: 5px;
+  padding: 0 5px;
+  box-shadow: 0 0 5px;
+  transition: background-color 0.25s;
+}
+.ope button:hover {
+  background-color: hsl(154, 38%, 65%);
+}
+@media screen and (max-width: 600px) {
+  main div {
+    width: 100%;
+  }
+}
+
+#first {
+  text-shadow: 2px 2px 5px hsl(49, 71%, 55%);
+}
+
+#second {
+  text-shadow: 2px 2px 5px hsl(97, 91%, 69%);
+}
+
+#math {
+  text-shadow: 2px 2px 5px hsl(185, 79%, 68%);
+}
+#result {
+  text-shadow: 2px 2px 5px hsl(290, 95%, 76%);
+}

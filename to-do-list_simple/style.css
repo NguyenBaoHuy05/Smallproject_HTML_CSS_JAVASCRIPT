@@ -1,0 +1,79 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(203, 100%, 93%);
+  transition: background-color ease 0.5s;
+}
+
+#container {
+  min-width: 600px;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(
+    180deg,
+    hsla(240, 88%, 59%, 0.452),
+    hsla(120, 100%, 25%, 0.744)
+  );
+  border-radius: 8px;
+  box-shadow: 2px 2px 5px hsl(0, 0%, 57%);
+}
+
+h1 {
+  text-align: center;
+  color: pink;
+}
+
+input {
+  margin: 0 2px;
+  border: none;
+  border-radius: 3px;
+}
+button {
+  margin: 0 2px;
+}
+.newlist,
+#newlist {
+  padding: 5px;
+  width: 40%;
+}
+.date,
+#date {
+  padding: 4px;
+  width: 30%;
+}
+.remove {
+  background-color: hsl(0, 100%, 50%);
+}
+.remove:hover {
+  background-color: hsl(0, 100%, 75%);
+}
+.change {
+  background-color: hsla(61, 100%, 61%, 0.611);
+}
+.change:hover {
+  background-color: hsla(61, 100%, 70%, 1);
+}
+.change1 {
+  background-color: hsla(298, 100%, 61%, 0.611);
+}
+.change1:hover {
+  background-color: hsla(298, 100%, 70%, 1);
+}
+#add {
+  background-color: hsla(180, 100%, 53%, 0.619);
+  margin-top: 10px;
+}
+#add:hover {
+  background-color: hsla(180, 100%, 70%, 0.619);
+  margin-top: 10px;
+}
+.change,
+.remove,
+#add {
+  width: 10%;
+}
+.card,
+#form {
+  padding: 5px;
+}

@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: hsl(0, 0%, 80%);
+}
+#com {
+  max-width: 500px;
+  border: 1px solid;
+  background-color: black;
+  border-radius: 10px;
+}
+#display {
+  width: 100%;
+  border: none;
+  padding: 30px 0px;
+  margin-bottom: 5px;
+  background-color: hsl(0, 5%, 30%);
+  border-radius: 10px;
+  font-size: 5rem;
+  text-align: left;
+  color: white;
+}
+#btn {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  padding: 25px;
+  margin: 5px -20px 10px 20px;
+}
+button {
+  width: 70px;
+  border: none;
+  height: 70px;
+  border-radius: 50px;
+  font-size: 3rem;
+  font-weight: bold;
+  color: white;
+  background-color: hsl(0, 0%, 30%);
+  cursor: pointer;
+  transition: background-color ease;
+}
+button:hover {
+  background-color: hsl(0, 0%, 20%);
+}
+.ope {
+  background-color: hsl(60, 98%, 36%);
+}
+.ope:hover {
+  background-color: hsl(60, 98%, 30%);
+}
+.all {
+  background-color: hsl(240, 99%, 64%);
+}
+.all:hover {
+  background-color: hsl(240, 99%, 55%);
+}
+.d {
+  background-color: hsl(0, 100%, 56%);
+}
+.d:hover {
+  background-color: hsl(0, 100%, 40%);
+}
+.red {
+  background-color: hsl(0, 100%, 56%);
+}
+.red:hover {
+  background-color: hsl(0, 100%, 40%);
+}
